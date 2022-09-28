@@ -5,14 +5,14 @@ import {
   Navigate,
 } from 'react-router-dom';
 
-import Layout from './PageLayouts/Layout';
-import Dashboard from './Dashboard/Dashboard';
-import About from './About/About';
-import MyStory from './About/MyStory';
-import Mission from './About/Mission';
-import Skills from './About/Skills';
-import Projects from './Projects/Projects';
-import Contact from './Contact/Contact';
+import Layout from './components/PageLayouts/Layout';
+import Dashboard from './components/Dashboard/Dashboard';
+import About from './components/About/About';
+import MyStory from './components/About/MyStory';
+import Mission from './components/About/Mission';
+import Skills from './components/About/Skills';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
 
 export default function App() {
   return (
